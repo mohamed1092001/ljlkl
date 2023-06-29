@@ -1,0 +1,59 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background-color: #302c42;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 0px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav .logo img {
+  width: 130px;
+}
+
+nav .nav-btn li {
+  padding: 3px 30px;
+}
+
+nav .nav-btn a {
+  border-radius: 30px;
+  padding: 3px 30px;
+}
+
+nav .nav-btn .border-btn {
+  border: solid 2px #fff;
+
+  
+}
+
+nav .nav-btn .solid-btn {
+  background-image: linear-gradient(to right, #8176af, #9086bd, #a096cb, #b0a6da, #c0b7e8);
+  color: #302c42;
+  font-weight: bold;
+}
